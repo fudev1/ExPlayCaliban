@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sreup\Documents\Intersysto\ExPlayCaliban\src\main\scala\example\play\ExampleApp.scala:35:60: Cannot find a codec between types: String and caliban.GraphQLRequest, formatted as: sttp.tapir.CodecFormat.Json.[0m
+[0m[[0m[31merror[0m] [0m[0mDid you define a codec for: caliban.GraphQLRequest?[0m
+[0m[[0m[31merror[0m] [0m[0mDid you import the codecs for: sttp.tapir.CodecFormat.Json?[0m
+[0m[[0m[31merror[0m] [0m[0m                PlayAdapter.makeHttpService(HttpInterpreter(interpreter)).apply(req)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\sreup\Documents\Intersysto\ExPlayCaliban\src\main\scala\example\play\ExampleApp.scala:37:70: Cannot find a codec between types: String and caliban.GraphQLWSInput, formatted as: sttp.tapir.CodecFormat.Json.[0m
+[0m[[0m[31merror[0m] [0m[0mDid you define a codec for: caliban.GraphQLWSInput?[0m
+[0m[[0m[31merror[0m] [0m[0mDid you import the codecs for: sttp.tapir.CodecFormat.Json?[0m
+[0m[[0m[31merror[0m] [0m[0m                PlayAdapter.makeWebSocketService(WebSocketInterpreter(interpreter)).apply(req)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
